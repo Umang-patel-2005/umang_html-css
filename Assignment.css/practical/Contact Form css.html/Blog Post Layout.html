@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post Layout</title>
+  <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif; /* Body font */
+      background: #f8f9fa;
+      color: #333;
+      line-height: 1.7;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .blog-post {
+      max-width: 800px;
+      font-family: "Oswald", sans-serif;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Title */
+    .blog-post h1 {
+      font-family: 'Merriweather', serif; /* Heading font */
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    /* Subtitle */
+    .blog-post h2 {
+      font-family: 'Merriweather', serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    /* Body Content */
+    .blog-post p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    /* Responsive Typography */
+    @media (max-width: 768px) {
+      .blog-post {
+        padding: 20px;
+      }
+
+      .blog-post h1 {
+        font-size: 2rem;
+      }
+
+      .blog-post h2 {
+        font-size: 1.2rem;
+      }
+
+      .blog-post p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .blog-post h1 {
+        font-size: 1.7rem;
+      }
+
+      .blog-post h2 {
+        font-size: 1rem;
+      }
+
+      .blog-post p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <article class="blog-post">
+    <h1>The Future of Web Design</h1>
+    <h2>How Responsive Layouts Are Shaping User Experiences</h2>
+    <p>
+      In today’s digital age, responsive web design has become more than just a trend—it’s a necessity. 
+      With the vast variety of devices people use to access the web, designers must ensure that their 
+      layouts adapt seamlessly to different screen sizes.
+    </p>
+    <p>
+      Typography plays a crucial role in improving readability. By combining distinct fonts for headings 
+      and body content, designers can create visual hierarchy and guide readers through the content 
+      effortlessly. Google Fonts offers a rich collection of typefaces that make this process simple 
+      and effective.
+    </p>
+    <p>
+      As technology continues to evolve, web designers must stay ahead by adopting flexible grid systems, 
+      fluid images, and scalable typography. The future belongs to experiences that not only look great 
+      but also feel intuitive across all platforms.
+    </p>
+  </article>
+</body>
+</html>

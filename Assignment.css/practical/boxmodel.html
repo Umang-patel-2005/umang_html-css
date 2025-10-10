@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Card</title>
+  <style>
+    /* Global box-sizing for better layout control */
+    * {
+      box-sizing: border-box;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .profile-card {
+      width: 300px;
+      background-color: #fff;
+      border: 2px solid #ddd;
+      border-radius: 50px;
+      box-shadow: 0 4px 8px 10px rgba(13, 6, 154, 0.1);
+      padding: 20px;
+        
+      box-sizing: border-box; /* border-box on main card */
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #4CAF50;
+      padding: 5px; /* This padding uses content-box */
+      box-sizing: content-box; /* Different box-sizing */
+      margin-bottom: 15px;
+    }
+
+    .profile-name {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .profile-bio {
+      font-size: 0.95em;
+      color: #666;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px dashed #ccc;
+      box-sizing: border-box; /* Demonstrating box-sizing again */
+    }
+
+    .follow-button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      box-sizing: border-box;
+    }
+
+    .follow-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img class="profile-image" src="../practical/Contact Form css.html/cd26umang3dxx.webp" alt="Profile Picture" />
+    <div class="profile-name">umang patidar </div>
+    <div class="profile-bio">
+      Web Developer. Passionate about front-end design and creating clean user interfaces.
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+</body>
+</html>
