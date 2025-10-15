@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="../Contact Form css.html/styles.css">
+  <style>
+    body
+    {
+      background-image: url(background\ img.2521.webp);
+    }
+  </style>
+</head>
+<body>
+    <form id="contact-form">
+    <h2>Contact Us</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" class="form-field" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" class="form-field" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" class="form-field" name="message" rows="5" required></textarea>
+    
+    <label for="file"></label>
+    <input type="file" id="file" class="form-field" name="file">
+
+    <label for="subject"></label>
+    <input type="text" id="subject" class="form-field" name="subject" placeholder="Subject"> 
+
+    <label for="birth of date"></label>
+    <input type="date" id="birth of date" class="form-field" name="birth of date">
+
+    <label for="item"></label>
+    <input type="number" id="item" class="form-field" name="item" placeholder="Item Quantity" min="1" max="100">
+    
+    <button type="submit" id="submit-btn">Submit</button>
+    <button type="reset" id="reset-btn">Reset</button>
+    
+    
+  </form>
+
+</body>
+</html>
